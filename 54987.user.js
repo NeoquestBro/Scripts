@@ -13,6 +13,14 @@
 // @resource       winConfigCss http://pastebin.com/download.php?i=rHDg6Nyt
 // @require        http://userscripts.org/scripts/source/54389.user.js
 // @history        2.0.0.0 Removed multiline strings due to recent firefox update
+// @grant GM_addStyle
+// @grant GM_deleteValue
+// @grant GM_getResourceText
+// @grant GM_getValue
+// @grant GM_log
+// @grant GM_registerMenuCommand
+// @grant GM_setValue
+// @grant unsafeWindow
 // ==/UserScript==
 
 const WinConfig = function () {};

@@ -8,6 +8,14 @@
 // @require       https://github.com/NeoquestBro/Scripts/raw/master/54389.user.js
 // @require       https://github.com/NeoquestBro/Scripts/raw/master/54987.user.js
 // @resource      winConfigCss http://pastebin.com/download.php?i=rHDg6Nyt
+// @grant GM_addStyle
+// @grant GM_deleteValue
+// @grant GM_getResourceText
+// @grant GM_getValue
+// @grant GM_log
+// @grant GM_registerMenuCommand
+// @grant GM_setValue
+// @grant unsafeWindow
 // ==/UserScript==  
 
 var debug = false;
