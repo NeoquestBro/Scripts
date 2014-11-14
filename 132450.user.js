@@ -88,7 +88,7 @@ function parseBets(page) {
   if (!page) {
     return onError('That betting page looks kinda blank.');
   }
-  var bets = page.match(/<td>\s+<b>.*<\/b>: .*<br>\s+<\/td>/g)
+  var bets = page.match(/<td><b>[^=]+<br><\/td>/g);
   if (!bets) {
     return onError('Betting page contains no bets.');
   }
